@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+aside {
+    background-color: #F15A22;
+    height: 40rem;
+}
+
+aside img {
+    width: 10rem;
+}
