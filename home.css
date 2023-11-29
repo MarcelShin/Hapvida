@@ -77,11 +77,12 @@ nav a{
     background-color: #006db6;
     width: 100%;
     height: 5rem;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 video {
     margin-top: 4rem;
     height: 35rem;
 }
-
 
