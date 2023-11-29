@@ -92,7 +92,7 @@ video {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    max-width: 400px;
+    max-width: 500px;
     margin: 20px auto;
 }
 
@@ -149,4 +149,34 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+}
+
+table img{
+    width: 200px;
+}
+
+.floatingtext {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.floatingtext h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.floatingtext p{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #006db6;
+    margin-bottom: 1rem;
+}
+
+.floatingtext img{
+    width: 25%;    
 }
