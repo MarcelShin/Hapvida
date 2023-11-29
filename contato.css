@@ -36,7 +36,7 @@ aside img {
 ul {
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
+    margin-top: 2rem;
     gap: 2rem;
     height: 51rem;
 }
@@ -46,7 +46,8 @@ li {
     list-style: none;
     font-size: 1.1rem;
     color: #fff;
-    margin-left: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
 }
 
 nav a{
