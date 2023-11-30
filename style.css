@@ -58,11 +58,11 @@ nav a{
     border-bottom: 2px solid #0996f5;
 }
 
-#content {
+.content {
     width: 90%;
 }
 
-#home {
+.home {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,18 +99,35 @@ video {
 
 .floatingtext h2{
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .floatingtext p{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     color: #006db6;
-    margin-bottom: 1rem;
+    margin: 2rem;
 }
 
 .floatingtext img{
-    width: 25%;    
+    width: 50%;
+    box-shadow: 0 0 10px black; 
+    border-radius: 1rem; 
+    transition: transform 0.3s ease;
+}
+
+.floatingtext img:hover{
+    transform: scale(1.2);
+}
+
+.sidedimgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sidedimgs img{
+    width: 25%;
 }
 
 #ranking {
