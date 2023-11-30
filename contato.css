@@ -19,7 +19,7 @@ main {
 
 aside {
     background-color: #006db6;
-    height: 58rem;
+    height: auto;
     width: 10%;
     border-right: 0.3rem solid #0996f5;
 }
@@ -95,6 +95,12 @@ video {
     border-radius: 10px;
     max-width: 500px;
     margin: 20px auto;
+    font-size: 1.6rem;
+
+}
+
+#contactForm input{
+    font-size: 1.5rem;
 }
 
 form {
@@ -123,6 +129,7 @@ button {
     color: #fff;
     border: none;
     border-radius: 5px;
+    font-size: 1.5rem;
 }
 
 button:hover {
@@ -140,12 +147,15 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 th, td {
     border: 1px solid #ddd;
     padding: 12px;
     text-align: left;
+    font-size: 1.5rem;
 }
 
 th {
@@ -154,6 +164,16 @@ th {
 
 table img{
     width: 200px;
+}
+
+caption{
+    font-size: 2rem;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
 }
 
 .floatingtext {

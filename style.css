@@ -19,7 +19,7 @@ main {
 
 aside {
     background-color: #006db6;
-    height: 63rem;
+    height: auto;
     width: 10%;
     border-right: 0.3rem solid #0996f5;
 }
@@ -101,11 +101,30 @@ video {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
+.floatingtext h2:after{
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 140px
+}
+
+.floatingtext h2:before{
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 140px
+}
 
 .floatingtext p{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    color: #006db6;
+    color: darkslategrey;
     margin: 2rem;
 }
 
