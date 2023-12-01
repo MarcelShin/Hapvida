@@ -144,7 +144,7 @@ button:hover {
 }
 
 table {
-    width: 100%;
+    width: 50rem;
     border-collapse: collapse;
     margin-top: 20px;
     background-color: white;
@@ -164,6 +164,7 @@ th {
 
 table img{
     width: 150px;
+    margin-left: 3rem;
 }
 
 caption{
